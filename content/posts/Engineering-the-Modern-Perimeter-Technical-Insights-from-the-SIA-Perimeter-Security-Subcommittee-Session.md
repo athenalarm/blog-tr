@@ -92,12 +92,12 @@ SIA Çevre Güvenliği Alt Komitesi oturumu, modern bir çevre güvenliğinin sa
 
 ## Sıkça Sorulan Sorular (FAQ)
 
-### 1. Çevre güvenliği tasarımında TVRA süreci neden kritik öneme sahiptir?
+1. Çevre güvenliği tasarımında TVRA süreci neden kritik öneme sahiptir?
 TVRA (Threat, Vulnerability, and Risk Assessment), bir tesisin maruz kalabileceği tehdit senaryolarını, fiziksel altyapıdaki güvenlik açıklarını ve maruz kalınan finansal/operasyonel riskleri nicel olarak analiz eden bir mühendislik disiplinidir. TVRA tabanlı tasarlanan bir ticari hırsızlık koruması, bütçenin doğru ekipmanlara aktarılmasını sağlar ve NERC gibi kritik uluslararası endüstriyel standartlara uyumluluğu garanti eder.
 
-### 2. Çevre güvenlik çitini doğrudan mülkiyet sınırına inşa etmenin teknik dezavantajı nedir?
+2. Çevre güvenlik çitini doğrudan mülkiyet sınırına inşa etmenin teknik dezavantajı nedir?
 Çit hattını parsel sınırına sıfır inşa etmek, sınırın dış tarafında kontrolünüz dışında gelişebilecek olumsuz durumlara (örneğin çite yaslanarak araç park edilmesi, malzeme istiflenmesi) zemin hazırlar. Ayrıca yeraltındaki diğer kurumlara ait altyapı hatlarına zarar verme riski doğar ve güvenlik kameralarının komşu mülkleri kaydetmesi durumunda gizlilik yükümlülükleri (KVKK ihlalleri vb.) ile karşılaşılabilir. 5 metrelik bir çekme mesafesi, şüphelinin alanı kasıtlı olarak ihlal ettiğini kanıtlayan yasal bir tampon bölge oluşturur.
 
-### 3. Çevre alarm sistemlerinde Contact ID ve SIA protokolü standardizasyonu neden gereklidir?
+3. Çevre alarm sistemlerinde Contact ID ve SIA protokolü standardizasyonu neden gereklidir?
 Contact ID ve SIA protokolü, sahadaki hırsızlık alarm panelleri ile merkezi izleme istasyonu (CMS) arasındaki veri iletişiminin dilini belirleyen uluslararası alarm haberleşme protokolleridir. Bu protokoller sayesinde sinyaller (hat kopması, sabotaj, gerçek ihlal vb.) nokta atışı kodlarla eksiksiz iletilir. Geniş çevre güvenlik otomasyonlarında bu standartların kullanılması, sistemin farklı marka donanımlarla ve GSM komünikatörü gibi yedekli kanal bileşenleriyle tam bir entegrasyon içinde çalışmasını sağlar.
 ---
