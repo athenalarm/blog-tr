@@ -87,11 +87,11 @@ Ticari güvenlik operasyonlarında en yüksek maliyet kalemlerinden biri, çevre
 
 Fiziksel bir uç sensör tetiklendiğinde sistem şu dijital doğrulama sürecini yürütür:
 
-graph TD
-    A[Fiziksel Sensör Tetiklemesi] --> B[Uç Panel Mantığı: Kamera ID Eşleştirmesi]
-    B --> C["Yerel NVR/IP Kamera: Medya Belirteci Oluşturma (-10sn / +10sn)"]
-    C --> D[Şifreli Kapsülleme: Alfanümerik SIA DC-09 + Video Snippet]
-    D --> E[CMS Operatör Konsolu: Eş Zamanlı Görsel/Veri Sunumu]
+1. **Fiziksel Sensör Tetiklemesi**
+2. **Uç Panel Mantığı: Kamera ID Eşleştirmesi**
+3. **Yerel NVR/IP Kamera: Medya Belirteci Oluşturma (-10sn / +10sn)**
+4. **Şifreli Kapsülleme: Alfanümerik SIA DC-09 + Video Snippet**
+5. **CMS Operatör Konsolu: Eş Zamanlı Görsel/Veri Sunumu**
 
 Bu iş akışı sayesinde, geleneksel alarm doğrulama süreçlerindeki gecikmeler ortadan kaldırılır. Fiziksel tetikleme anının 10 saniye öncesi ve 10 saniye sonrasını kapsayan görüntüler, şifreli bir SIA DC-09 veri bloğuyla birleştirilerek tek bir medya belirtecine (media token) dönüştürülür. 
 
